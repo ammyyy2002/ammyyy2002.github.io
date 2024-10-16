@@ -1,0 +1,35 @@
+.containerCV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.accordion-button {
+    width: 95%;
+    box-sizing: border-box;
+    padding: 10px 15px; /* Adjust padding as needed */
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: center;
+}
+
+.accordion-body {
+    margin: 0 10px 0 20px;
+}
+
+.custom-cv-list {
+    margin: 0px 0px 10px 10px;
+}

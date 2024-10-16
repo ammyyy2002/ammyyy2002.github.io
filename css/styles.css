@@ -1,0 +1,123 @@
+@import url('../css/projects.css');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #a0a0a0;
+}
+
+
+/************** navbar adjustments **************/
+.navbar {
+    margin-bottom: 0;
+    padding: 5px;
+    background-color: orange;
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        position: absolute;
+    }
+    .responsive-icon {
+        max-width: 13%;
+    }
+    .navbar-toggler {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 992px) {
+    .responsive-icon {
+        max-width: 17%;
+        max-height: auto;
+    }
+    .navbar-toggler {
+        max-width: 27%;
+        max-height: 10%;
+    }
+}
+
+.navbar-nav .nav-link {
+    font-size: 125%;
+    color: rgb(76, 76, 76);
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+
+/************** header adjustments **************/
+.header {
+    margin: 25px;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/************** footer adjustments **************/
+.footer {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.custom-link {
+    color: white;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.main-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+}
+
+/************** contact adjustments **************/
+.small-custom-text-blockContact {
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    place-items: center;
+    flex-direction: column;
+    display: flex;
+    min-height: 100px;
+    min-width: 280px;
+    max-width: 700px;
+    width: 60%;
+    border: 2px solid #dcdcdc; 
+    padding: 20px;
+    background-color: #a0a0a0;
+    border-radius: 0.4rem; /* Abgerundete Ecken */
+    margin: 25px
+}
