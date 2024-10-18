@@ -103,6 +103,11 @@ button, input[type="submit"] {
     pointer-events: none;
     opacity: 0.6;
 }
+
+.not-clickable-correct {
+    pointer-events: none;
+}
+
 .correct {
 
 }

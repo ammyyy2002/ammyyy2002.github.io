@@ -17,7 +17,7 @@ function checkMultiChoice(event) {
         otherButtons.forEach(function(b) {
             b.classList.add('not-clickable');
         });
-        button.classList.add('not-clickable');
+        button.classList.add('not-clickable-correct');
         button.parentElement.querySelector('.feedback').innerHTML = 'Correct!';
         counter++;
     }
