@@ -14,16 +14,16 @@
 
         <nav class="navbar navbar-expand-lg sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="/images/icon_aw.png" alt="Amys Website Icon" class="responsive-icon"></a>
+                <a class="navbar-brand" href="../index.html"><img src="../images/icon_aw.png" alt="Amys Website Icon" class="responsive-icon"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-auto">
                         <a class="nav-link"  href="../index.html">Home</a>
-                        <a class="nav-link active" aria-current="page" href="/pages/projects.html">Projects</a>
-                        <a class="nav-link" href="/pages/cv.html">CV</a>
-                        <a class="nav-link" href="/pages/contact.html">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="../pages/projects.html">Projects</a>
+                        <a class="nav-link" href="../pages/cv.html">CV</a>
+                        <a class="nav-link" href="../pages/contact.html">Contact</a>
                     </div>
                 </div>
             </div>
@@ -33,8 +33,10 @@
             <div class="header">
                 <div class="container">
                     <h1>My Projects</h1>
-                    <p style="font-size: 18px;">Here you can overview all of my past and recent projects.</p>
-                    <p style="font-size: 18px;">Each project card contains information about the used Tech Stack.</p>
+                    <p style="font-size: 18px;">
+                        Here you can overview all of my past and recent projects. <br>
+                        Each project card contains information about the used Tech Stack.
+                    </p>
                 </div>
             </div>
         </header>
@@ -46,21 +48,35 @@
 
                     <div class="col-sm-6 custom-column">
                         <div class="card" id="card1">
-                            <img src="/images/topicmodelingProject.png" class="card-img-top" alt="Results of the Topic Model">
+                            <img src="../images/meal-order-app-login.png" class="card-img-top" alt="Meal Order Web Page">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">R, NLP, Topic Model</li>
+                                <li class="list-group-item">FastAPI, PostgreSQL, Docker, Alembic</li>
+                                </ul>
+                            <div class="card-body">
+                                <h5 class="card-title">Meal Ordering Webapp</h5>
+                                <p class="card-text">As part of a team, I developed the backend, database and unit tests for a fully functional digital meal-ordering web application, following a MVC architecture.</p>
+                            </div>
+                            <a target="_blank" href="https://github.com/ammyyy2002/meal-ordering-webapp" class="btn btn-primary">Check out Project at GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 custom-column">
+                        <div class="card" id="card1">
+                            <img src="../images/topicmodelingProject.png" class="card-img-top" alt="Results of the Topic Model">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">R, DTM, POS-Tagging, Topic Model</li>
                                 </ul>
                             <div class="card-body">
                                 <h5 class="card-title">Topic Modeling with R</h5>
-                                <p class="card-text">I did a diachronic analysis and comparison of German election programmes in R using NLP methods and the distant reading method Topic Modeling.</p>
+                                <p class="card-text">I conducted a diachronic analysis and comparative study of German election programmes using NLP methos in R, applying topic modeling as a distant reading approach.</p>
                             </div>
-                            <a target="_blank" href="https://github.com/ammyyy2002/Topic-Modeling-of-Electional-Programs-from-Manifesto-Project-in-R/tree/main" class="btn btn-primary">Visite Project at GitHub</a>
+                            <a target="_blank" href="https://github.com/ammyyy2002/Topic-Modeling-of-Electional-Programs-from-Manifesto-Project-in-R/tree/main" class="btn btn-primary">Check out Project at GitHub</a>
                         </div>
                     </div>
 
                     <div class="col-sm-6 custom-column">
                         <div class="card" id="card2">
-                            <img src="/images/amysWebsiteProject.png" class="card-img-top" alt="...">
+                            <img src="../images/amysWebsiteProject.jpg" class="card-img-top" alt="...">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">HTML, CSS, JavaScript, Bootstrap</li>
                                 </ul>
@@ -68,12 +84,12 @@
                                 <h5 class="card-title">Personal Website</h5>
                                 <p class="card-text">I built this simple, interactive website frontend using the basic web development tools JavaScript, HTML and CSS!</p>
                             </div>
-                            <a target="_blank" href="https://github.com/ammyyy2002/ammyyy2002.github.io" class="btn btn-primary">Check out the Code of my Website</a>
+                            <a target="_blank" href="https://github.com/ammyyy2002/ammyyy2002.github.io" class="btn btn-primary">Check out the Code of this Website</a>
                         </div>
                     </div>
                     <div class="col-sm-6 custom-column">
                         <div class="card" id="card3">
-                            <img src="/images/xorScreenshot.png" class="card-img-top" alt="...">
+                            <img src="../images/xorScreenshot.png" class="card-img-top" alt="...">
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">Java, object-oriented-programming</li>
                                 </ul>
@@ -81,7 +97,7 @@
                                 <h5 class="card-title">XOR Chipher</h5>
                                 <p class="card-text">I coded an object-oriented cipher for encrypting text documents using an xor operation of file bytes and key bytes.</p>
                             </div>
-                            <a href="https://github.com/ammyyy2002/XORChiffre-ObjectOriented" class="btn btn-primary">Visite Code at GitHub</a>
+                            <a target="_blank" href="https://github.com/ammyyy2002/XORChiffre-ObjectOriented" class="btn btn-primary">Check out Code at GitHub</a>
                         </div>
                     </div>
 
@@ -94,7 +110,7 @@
             <div class="footer">
                 <div class="container">
                     <p>© Made by Amelie Biwolé</p>
-                    <a class="custom-link" href="/pages/contact.html">Contact</a>
+                    <a class="custom-link" href="../pages/contact.html">Contact</a>
                 </div>
             </div>
         </footer>
